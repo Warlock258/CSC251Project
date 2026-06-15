@@ -154,20 +154,4 @@ public class Policy
       return price;
    }
    
-   //Not included in the instructions but can be added...
-   /*Displays information about the Policy
-   public void displayInformation()
-   {
-      System.out.println("Policy Number: " + policyNumber);
-      System.out.println("Provider Name: " + providerName);
-      System.out.println("Policyholder's First Name: " + firstName);
-      System.out.println("Policyholder's Last Name: " + lastName);
-      System.out.println("Policyholder's Age: " + age);
-      System.out.println("Policyholder's Smoking Status (Y/N): " + smokingStatus);
-      System.out.println("Policyholder's Height: " + height + " inches");
-      System.out.println("Policyholder's Weight: " + weight + " pounds");
-      System.out.printf("Policyholder's BMI: %.2f\n", getBMI());
-      System.out.printf("Policy Price: $%.2f\n", getPrice());
-   }
-   */
 }
